@@ -27,7 +27,7 @@ export default function Home() {
             objectFit="contain"
             className='-rotate-90'
           />
-          <p className='bg-regin_cyan p-10 font-bold text-2xl rounded-xl mt-80 h-max  text-black'>Agenda una cita</p>
+           <a href="/formulario"><button className='bg-regin_cyan p-10 font-bold text-2xl rounded-xl mt-80 h-max  text-black'>Agenda una cita</button></a>
         </div>
         <div className='bg-regin_grey text-black p-16'>
           <p className='text-5xl font-bold mb-20'>¿Por qué Regin?</p>
