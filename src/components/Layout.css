@@ -1,0 +1,30 @@
+@media (max-width: 1308px){
+    .socialmedias{
+        display: none;
+    }
+    .header{
+        justify-content: center;
+    }
+    .section,.header{
+        width: 100%;
+    }
+}
+@media (max-width: 899px){
+    .navimage{
+        display: none;
+    }
+}
+@media (max-width: 475px){
+    .nav > li:not(.focus){
+        display: none;
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.section,.header{
+    width: 80em;
+}
