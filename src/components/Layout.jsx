@@ -7,10 +7,10 @@ export default function Layout({ children }) {
                 <div className="bg-white p-4 rounded-3xl flex items-center justify-between absolute w-11/12 top-5">
                     <nav>
                         <ul className="flex gap-20 items-center text-xl">
-                            <li><Image src={"/Logo2.png"} alt="regin" width={250} height={200}></Image></li>{/*REMPLAZAR POR LOGO CON CALIDAD*/}
-                            <li><Link href={"/"}>Inicio</Link></li>
-                            <li><Link href={"/Servicios"}>Servicios</Link></li>
-                            <li><Link href={"/Nosotros"}>Nosotros</Link></li>
+                            <li ><Image src={"/Logo2.png"} alt="regin" width={250} height={200}></Image></li>{/*REMPLAZAR POR LOGO CON CALIDAD*/}
+                            <li className='hover:bg-regin_cyan p-3 rounded-md'><Link href={"/"}>Inicio</Link></li>
+                            <li className='hover:bg-regin_cyan p-3 rounded-md'><Link href={"/servicio"}>Servicios</Link></li>
+                            <li className='hover:bg-regin_cyan p-3 rounded-md'><Link href={"/Nosotros"}>Nosotros</Link></li>
                         </ul>
                     </nav>
                     <ul className="flex items-center gap-5">
