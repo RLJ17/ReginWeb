@@ -1,6 +1,7 @@
-import Link from "next/link"
-import Image from "next/image"
+import Link from "next/link";
+import Image from "next/image";
 import "./Layout.css";
+
 export default function Layout({ children }) {
     return (
         <>
@@ -23,13 +24,13 @@ export default function Layout({ children }) {
                 <div className=" text-white">
                     {children}
                 </div>
-                <div className="footer bg-regin_cyan p-4 min-h-32 flex  justify-around items-center w-full mt-5">
+                <div className="bg-regin_cyan p-4 min-h-32 flex flex-grow justify-around items-center w-full mt-5">
                     <Link href={"/"}><Image src={"/Logo2.png"} className="min-w-64" alt="regin" width={250} height={200}></Image></Link>
                     <p className="font-extrabold  text-white">Siguenos en nuestras cuentas</p>
                     <Link href={"https://www.tiktok.com/@osito.peru?lang=es"} target="_blank"><Image className="min-w-11" src={"/tiktok_logo.png"} alt="tiktok" width={42} height={42}></Image></Link>
                     <Link href={"https://www.tiktok.com/@osito.peru?lang=es"} target="_blank"><Image className="min-w-11" src={"/instagram_logo.png"} alt="instagra" width={45} height={45}></Image></Link>
+                </div>
             </div>
-        </div >
         </>
     )
 }
