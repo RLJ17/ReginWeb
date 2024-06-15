@@ -3,7 +3,7 @@ import Image from "next/image"
 import "./nosotros.css";
 export default function nosotros() {
     return (
-        <Layout>
+        <Layout patt="nosotros">
             <div className="flex flex-row  mt-12 text-black justify-center gap-10">
                 <div className="bg-white flex flex-col items-center justify-center px-10 py-44 rounded-3xl max-w-2xl">
                     <h2 className="font-bold text-4xl">¿Quienes somos?</h2>
@@ -22,11 +22,11 @@ export default function nosotros() {
             </div>
             <div className="p-10 bg-regin_cyan my-20"></div>
             <div className="mx-24">
-                <p className="font-bold text-4xl">Nuestra misión y visión</p>
+                <p className="font-bold text-4xl text-white">Nuestra misión y visión</p>
                 <div className="flex p-10 flex-col justify-center">
                     <div className="flex flex-row gap-28">
                         <div className="flex flex-col">
-                            <p className="text-3xl font-bold">MISIÓN</p>
+                            <p className="text-3xl font-bold text-white">MISIÓN</p>
                             <Image
                                 src="/flecha.png"
                                 alt="flecha"
@@ -58,14 +58,14 @@ export default function nosotros() {
                                 objectFit="contain"
                                 className='rotate-fle2 relative right-20 -bottom-8 '
                             />
-                            <p className="text-3xl font-bold">VISIÓN</p>
+                            <p className="text-3xl font-bold text-white">VISIÓN</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="p-10 bg-regin_cyan my-20"></div>
             <div className="mx-24">
-                <p className="font-bold text-4xl">Nuestros valores</p>
+                <p className="font-bold text-4xl text-white">Nuestros valores</p>
                 <Image
                     src="/valores.png"
                     alt="flecha"

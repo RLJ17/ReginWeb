@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Servicio() {
  return (
-    <Layout>
+    <Layout patt="servicios">
       <main className='flex flex-row w-full h-96 mb-24 pl-10 justify-start items-end' >
         <div className='flex flex-col w-96 justify-center items-center'>
         <div className='flex flex-col justify-center items-center gap-7'>
