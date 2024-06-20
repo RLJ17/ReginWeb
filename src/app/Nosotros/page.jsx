@@ -68,10 +68,10 @@ export default function nosotros() {
             <div className="mx-24">
                 <p className="font-bold text-4xl text-white">Nuestros valores</p>
                 <Image
-                    src="/valores.png"
+                    src="/valores.svg"
                     alt="flecha"
                     width={500}
-                    height={400}
+                    height={1000}
                     objectFit="contain"
                     className=' min-w-full'
                 />
