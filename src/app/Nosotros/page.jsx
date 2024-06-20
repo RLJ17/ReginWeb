@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout"
 import Image from "next/image"
 import "./nosotros.css";
+
 export default function nosotros() {
     return (
         <Layout patt="nosotros">
@@ -16,8 +17,8 @@ export default function nosotros() {
                 </div>
                 <div className="flex flex-col">
                     <p className="text-white font-bold text-4xl text-center">Fundadora</p>
-                    <p className="text-white mb-7 text-center">Osito teton</p>
-                    <Image src={"/osito.png"} width={500} height={200} className="flex-grow rounded-3xl"></Image>
+                    <p className="text-white mb-7 text-center">Renata Cabrejos</p>
+                    <Image src={"/fundadora.png"} width={500} height={200} className="flex-grow rounded-3xl"></Image>
                 </div>
             </div>
             <div className="p-10 bg-regin_cyan my-20"></div>

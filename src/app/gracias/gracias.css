@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap'); /*Esto se copia para llamar a la fuente-tipografía*/
+
+.boton-volver {
+    color: #161521;
+    margin-bottom: 2rem; /* Ajusta el margen inferior según sea necesario */
+}
+
+section {
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 72vh; /* Ajusta el contenedor para que ocupe toda la pantalla */
+    text-align: left; /*texto a la izquierda */
+    padding: 1rem; /*padding*/
+}
+
+.bg-aquamarine {
+    background-color: aquamarine;
+}
+
+.logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: left; /* logo a la izquierda */
+    margin-bottom: 1.5rem; /* Ajusta el margen inferior según sea necesario */
+}
+
+.text-container {
+    width: 100%;
+    max-width: 600px; /*ancho máximo del contenedor de texto*/
+}
+
+.text-4xl {
+    font-size: 2.25rem; 
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.text-neutral-50 {
+    color: #f8fafc; 
+}
+
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
