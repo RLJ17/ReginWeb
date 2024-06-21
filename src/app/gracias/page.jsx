@@ -9,7 +9,7 @@ export default function Home() {
 
         <div className='text-container text-neutral-50'>
         <div className='logo-container flex items-start'>
-          <Image src={"/color.svg"} alt="Regin Logo" width={200} height={500} />
+          <Image src={"/color.svg"} alt="Regin Logo" width={400} height={500} />
         </div>
           <h1 className='text-5xl mb-8 font-bold'>Te agradece por la confianza</h1>
           <p className='text-3xl mb-8'>Hemos recibido tu mensaje. En la brevedad nos comunicaremos con usted para confirmar su cita.</p>

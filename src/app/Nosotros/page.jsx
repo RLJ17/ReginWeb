@@ -71,9 +71,9 @@ export default function nosotros() {
                     src="/valores.svg"
                     alt="flecha"
                     width={500}
-                    height={1000}
+                    height={500}
                     objectFit="contain"
-                    className=' min-w-full'
+                    className='w-full flex justify-between items-center p-6 m-6'
                 />
             </div>
         </Layout>
